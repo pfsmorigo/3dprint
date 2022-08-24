@@ -1,8 +1,8 @@
-SCAD_FILES := $(wildcard *.scad)
+SCAD_FILES := $(wildcard scads/*.scad)
 PNG_FILES := $(patsubst %.scad, %.png, $(SCAD_FILES))
 
 README.md: ${PNG_FILES}
-	@echo "# 3D models made with OpenSCAD\n" > $@
+	@cat $@.header > $@
 	@for FILE in ${PNG_FILES}; do echo "[![$$FILE]($$FILE)]($${FILE%.*}.scad)" >> $@; done
 
 %.png: %.scad
