@@ -1,8 +1,8 @@
 # 3D models made with OpenSCAD
 
-[![door_lock.png](scads/door_lock.png)](scads/door_lock.scad)
-[![ender3_back.png](scads/ender3_back.png)](scads/ender3_back.scad)
-[![kayak.png](scads/kayak.png)](scads/kayak.scad)
-[![mobile_car_holder.png](scads/mobile_car_holder.png)](scads/mobile_car_holder.scad)
-[![oneblade.png](scads/oneblade.png)](scads/oneblade.scad)
-[![ubuntu_keyring.png](scads/ubuntu_keyring.png)](scads/ubuntu_keyring.scad)
+[![door_lock.png](door_lock.png)](door_lock.scad)
+[![ender3_back.png](ender3_back.png)](ender3_back.scad)
+[![kayak.png](kayak.png)](kayak.scad)
+[![mobile_car_holder.png](mobile_car_holder.png)](mobile_car_holder.scad)
+[![oneblade.png](oneblade.png)](oneblade.scad)
+[![ubuntu_keyring.png](ubuntu_keyring.png)](ubuntu_keyring.scad)
