@@ -8,6 +8,9 @@ M221 S100 ;Reset Flowrate
 M140 S{material_bed_temperature} ;Heat bed
 M104 S170 T0 ;Heat hotend to 170C
 
+M82 ;Absolute Extrusion Mode - Needed by octolapse
+G90 ;Absolute XYZ Mode - Needed by octolapse
+
 G28 ;Home
 G29 ;Bed Calibration (BLTouch)
 M425 F1 Z ; Use full measured value of backlash on Z
