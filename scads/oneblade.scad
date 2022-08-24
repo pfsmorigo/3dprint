@@ -1,6 +1,6 @@
 $fn= $preview ? 32 : 64;
 
-width = 9;
+width = 10;
 space_lateral = 2;
 space = 18;
 slots = 6;
@@ -19,7 +19,7 @@ base_z = 2;
 
 for ( i = [0 : slots - 1] ){
 	translate([i*space, 0, 0]) {
-		translate([base_x/2, 0, 0]) cube([base_x, base_y, base_z], center=true);
+		translate([base_x/2-pin_x/2, 0, 0]) cube([base_x, base_y, base_z], center=true);
 		translate([0, 0, pin_z/2 + base_z/2]) {
 			difference() {
 				cube([pin_x, pin_y, pin_z], center=true);
