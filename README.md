@@ -2,7 +2,7 @@
 
 Personal stuff that I use for 3d printing
 
-## 3D models made with OpenSCAD
+## OpenSCAD models
 
 [![scads/door_lock.png](scads/door_lock.png)](scads/door_lock.scad)
 [![scads/ender3_back.png](scads/ender3_back.png)](scads/ender3_back.scad)
