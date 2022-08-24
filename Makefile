@@ -1,6 +1,6 @@
 SCAD_FILES := $(wildcard scads/*.scad)
 PNG_FILES := $(patsubst %.scad, %.png, $(SCAD_FILES))
-THUMBNAIL_SIZE := 250
+THUMBNAIL_SIZE := 240
 
 README.md: ${PNG_FILES}
 	@cat $@.header > $@
