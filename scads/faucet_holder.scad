@@ -3,7 +3,7 @@ use <BOSL/masks.scad>
 
 $fn = $preview ? 64 : 256;
 
-height=5;
+height=10;
 hole=40.56;
 size=hole+10;
 
