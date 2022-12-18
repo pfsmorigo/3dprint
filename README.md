@@ -4,6 +4,7 @@ Personal stuff that I use for 3d printing
 
 ## OpenSCAD models
 
+<a href="scads/clothes_hanging_ring.scad"><img src="scads/clothes_hanging_ring.png" width="240"></a>
 <a href="scads/door_lock.scad"><img src="scads/door_lock.png" width="240"></a>
 <a href="scads/draw_support.scad"><img src="scads/draw_support.png" width="240"></a>
 <a href="scads/ender3_back.scad"><img src="scads/ender3_back.png" width="240"></a>
