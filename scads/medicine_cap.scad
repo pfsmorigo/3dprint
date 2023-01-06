@@ -8,14 +8,14 @@ width = 22.5;
 base_height = 0.5;
 base_width = width+1.5;
 
-hole = 11.5;
+hole = 6;
 
-difference() {
+rotate([0, 180, 0]) difference() {
 	union() {
 		cylinder(height, d1=width, d2=width-1, center=true);
-		translate([0,0,-height/2+base_height/2]) cylinder(base_height, d=base_width, center=true);
+		translate([0, 0, -height/2+base_height/2]) cylinder(base_height, d=base_width, center=true);
 	}
-	translate([0,0,-height/2+(base_height+1)/2]) cylinder(base_height+1, d=hole+8, center=true);
+	translate([0, 0, -height/2+(base_height+1)/2]) cylinder(base_height+1, d=hole+13, center=true);
 	cylinder(height+1, d1=hole, d2=hole-1, center=true);
 }
 

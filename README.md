@@ -9,6 +9,8 @@ Personal stuff that I use for 3d printing
 <a href="scads/draw_support.scad"><img src="scads/draw_support.png" width="240"></a>
 <a href="scads/ender3_back.scad"><img src="scads/ender3_back.png" width="240"></a>
 <a href="scads/faucet_holder.scad"><img src="scads/faucet_holder.png" width="240"></a>
+<a href="scads/kvm_support.scad"><img src="scads/kvm_support.png" width="240"></a>
+<a href="scads/medicine_cap.scad"><img src="scads/medicine_cap.png" width="240"></a>
 <a href="scads/mobile_car_holder.scad"><img src="scads/mobile_car_holder.png" width="240"></a>
 <a href="scads/oneblade.scad"><img src="scads/oneblade.png" width="240"></a>
 <a href="scads/quest_controller_support.scad"><img src="scads/quest_controller_support.png" width="240"></a>

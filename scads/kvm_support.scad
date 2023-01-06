@@ -1,17 +1,19 @@
-//include <BOSL/constants.scad>
-//use <BOSL/masks.scad>
+use <BOSL/shapes.scad>
 
 $fn = $preview ? 64 : 256;
 
-height = 3;
-border = 5;
+height = 5;
+border = 10;
 
-hole_lenght = 89.6;
-hole_width = 23.2;
+big_hole_lenght = 103.3;
+big_hole_width = 19+3;
+small_hole_lenght = 89.6;
+small_hole_width = 23.2;
 
 difference() {
-	cube([hole_lenght+border, hole_width+border, height], center=true);
-	cube([hole_lenght, hole_width, height+1], center=true);
+	translate([0,0.5,0]) cuboid([big_hole_lenght+border, small_hole_width+big_hole_width+border, height], center=true, fillet=1.2);
+	translate([0,small_hole_width/2,0]) cube([small_hole_lenght, small_hole_width, height+1], center=true);
+	translate([0,-big_hole_width/2,0]) cube([big_hole_lenght, big_hole_width, height+1], center=true);
 }
 
 // # Syntax
