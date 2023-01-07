@@ -8,7 +8,7 @@ width = 22.5;
 base_height = 0.5;
 base_width = width+1.5;
 
-hole = 6;
+hole = 4.5;
 
 rotate([0, 180, 0]) difference() {
 	union() {
