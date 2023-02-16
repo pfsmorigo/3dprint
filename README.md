@@ -14,6 +14,7 @@ Personal stuff that I use for 3d printing
 <a href="scads/mobile_car_holder.scad"><img src="scads/mobile_car_holder.png" width="240"></a>
 <a href="scads/oneblade.scad"><img src="scads/oneblade.png" width="240"></a>
 <a href="scads/quest_controller_support.scad"><img src="scads/quest_controller_support.png" width="240"></a>
+<a href="scads/sift_wheat_holder_fix.scad"><img src="scads/sift_wheat_holder_fix.png" width="240"></a>
 <a href="scads/ubuntu_cable_jointer.scad"><img src="scads/ubuntu_cable_jointer.png" width="240"></a>
 <a href="scads/ubuntu_keyring.scad"><img src="scads/ubuntu_keyring.png" width="240"></a>
 <a href="scads/ubuntu_tag_keyring.scad"><img src="scads/ubuntu_tag_keyring.png" width="240"></a>
