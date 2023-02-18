@@ -1,3 +1,5 @@
+include <import/smow_lib.scad>
+
 $fn= $preview ? 32 : 64;
 
 sph=17.5;
@@ -8,13 +10,6 @@ pin_z=10;
 
 holder=2;
 holder_space=17;
-
-module triangle(x, y, z) {
-    polyhedron(
-        points=[[0,0,0],[x,0,0],[x,y,0],[0,y,0],[0,y,z],[x,y,z]],
-        faces=[[0,1,2,3],[5,4,3,2],[0,4,5,1],[0,3,4],[5,2,1]]
-    );
-}
 
 rotate([0,-90,0]) {
 	translate([0,pin_y,0]) difference() {
