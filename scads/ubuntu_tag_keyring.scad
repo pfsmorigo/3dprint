@@ -1,8 +1,8 @@
 $fn = $preview ? 32 : 64;
 x = 35;
 y = x * 1.54;
-z = x * 0.07;
-pin_size = x * 0.1;
+z = 2.5;
+pin_size = x * 0.115;
 pin_border = x * 0.04;
 pin_scale = 1.0;
 pin_shift = - x * 0.00;

@@ -1,6 +1,6 @@
 $fn = $preview ? 32 : 64;
 x = 35;
-z = x * 0.07;
+z = 1.5;
 space = x * 0.25;
 pin_size = x * 0.12;
 pin_border = x * 0.05;
