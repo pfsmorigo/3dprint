@@ -1,8 +1,8 @@
 $fn = $preview ? 32 : 64;
 x = 70;
 y = x;
-z1 = 2;
-z2 = 3;
+z1 = 4;
+z2 = 5;
 
 holder_x = 30;
 holder_y = 20;
