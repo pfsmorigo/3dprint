@@ -1,8 +1,8 @@
 $fn = $preview ? 64 : 256;
 
 height = 8;
-width = 22.5;
-base_height = 1;
+width = 22;
+base_height = 1.5;
 base_width = width+3;
 
 hole = 5.5;

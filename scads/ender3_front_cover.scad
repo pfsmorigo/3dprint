@@ -1,19 +1,19 @@
 $fn = $preview ? 64 : 256;
 
-height = 6;
+height = 5;
 width = 40;
 
-square_width = 18.5;
-square_height = 1.5;
+square_width = 19;
+square_height = 2;
 
 middle_hole = 10;
 
 screw_hole = 6;
 screw_hole_head = 10;
-screw_hole_head_height = 1;
+screw_hole_head_height = 2;
 screw_hole_distance = 7;
 
-round_size = 1;
+round_size = 1.5;
 
 difference() {
 	minkowski() {
