@@ -1,3 +1,5 @@
+M851 X-31.8 Y-40.5 ; CR-Touch probe offset from nozzle
+M206 X7 Y-10 ; Fine tune to align the table
 G90 ; use absolute coordinates
 M83 ; extruder relative mode
 M140 S{first_layer_bed_temperature[initial_extruder]} ; set final bed temp
@@ -17,3 +19,4 @@ G1 X2.3 F5000
 G92 E0
 G1 Y10 E10 F1200 ; prime the nozzle
 G92 E0
+G1 Z2.0 F3000 ;Move Z Axis up
