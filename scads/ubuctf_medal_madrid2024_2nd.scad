@@ -15,7 +15,7 @@ translate([0, x/2, z1/2])
 	}
 
 linear_extrude(z2) resize([x, y])
-	import("import/medal_madrid2024.svg", center=true);
+	import("import/medal_madrid2024_2nd.svg", center=true);
 
 linear_extrude(z1) resize([x, y])
 	import("import/medal_back.svg", center=true);
